@@ -4,6 +4,12 @@ module.exports = {
   presets: [],
   darkMode: 'media', // or 'class'
   theme: {
+    extend:{
+      colors:{
+        'pretocinza':'#2A2A2A',
+        'redsite': '#E21919'
+      },
+    },
     accentColor: ({ theme }) => ({
       ...theme('colors'),
       auto: 'auto',
